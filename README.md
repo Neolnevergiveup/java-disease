@@ -57,7 +57,7 @@ npm test
 |  	|-- img                                     # 图片
 |  	`-- lib                                     # 外部应用的js文件和css文件
 ```
-框架是[vue](https://cn.vuejs.org/v2/guide/)
-UI组件库是[Element](http://element-cn.eleme.io/#/zh-CN)
+# 框架是[vue](https://cn.vuejs.org/v2/guide/)
+# UI组件库是[Element](http://element-cn.eleme.io/#/zh-CN)
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
