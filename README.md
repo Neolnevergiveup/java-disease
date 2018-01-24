@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# npm 安装 [chromedriver](https://segmentfault.com/a/1190000008310875) 失败的解决办法
+# npm 安装 chromedriver 失败的解决办法
 npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
 
 # serve with hot reload at localhost:8080
