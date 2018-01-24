@@ -1,0 +1,74 @@
+.user_portrait{
+  flex: 1;
+  h5{
+    margin: 15px 0;
+    text-align: left;
+  }
+}
+.attribute{
+  flex: 1;
+  display: flex;
+  text-align: left;
+  .regional{
+    flex: 1;
+    background-color: #fff;
+    margin-right: 20px;
+    h6{
+      margin: 10px 10px;
+    }
+    li{
+      display: flex;
+      margin-bottom: 20px;
+      p{
+        width: 80px;
+        text-align: center;
+      }
+      .progress{
+        flex: 1;
+      }
+    }
+  }
+  .loginWay{
+    flex: 1;
+    background-color: #fff;
+  }
+}
+.env{
+  flex: 1;
+  .env_top{
+    width: 100%;
+    display: flex;
+    h6{
+      text-align: left;
+      padding: 20px;
+    }
+    .version{
+      flex: 1;
+      background-color: #fff;
+      margin-right: 20px;
+    }
+    .channel{
+      flex: 1;
+      background-color: #fff;
+      div{
+        width: 100%;
+        height: 400px;
+      }
+    }
+  }
+}
+.models{
+  background-color: #fff;
+  margin-top: 10px;
+  h6{
+    text-align: left;
+  }
+  .models_chart{
+    flex: 1;
+    display: flex;
+    & > div{
+      width: 50%;
+      height: 400px;
+    }
+  }
+}

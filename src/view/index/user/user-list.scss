@@ -1,0 +1,32 @@
+.user_list{
+  display: flex;
+  padding-top: 20px;
+  .grouping{
+    text-align: left;
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    margin-right: 20px;
+    h6{
+      line-height: 30px;
+      border-bottom: 1px solid #ddd;
+    }
+    p{
+      margin-top: 10px;
+      line-height: 24px;
+    }
+    ul{
+      li{
+        line-height: 30px;
+      }
+    }
+  }
+  .show_list{
+    flex: 1;
+    background-color: #fff;
+    .button{
+      text-align: left;
+      padding: 10px 20px;
+    }
+  }
+}

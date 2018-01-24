@@ -1,0 +1,35 @@
+.members{
+  .top{
+    flex: 1;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  .user_list{
+    display: flex;
+    margin-top: 10px;
+
+    .side_left{
+      background-color: #fff;
+      width: 150px;
+      h6{
+        text-align: left;
+      }
+    }
+    .department{
+      li{
+        text-align: center;
+        height: 40px;
+        p{
+          line-height: 40px;
+        }
+      }
+    }
+    .user_details{
+      margin-left: 20px;
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.total{
+  margin-top: 20px;
+  background-color: #fff;
+  ul{
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    li{
+      width: 25%;
+      border-right: 1px solid #ddd;
+      &:last-of-type{
+        border: none;
+      }
+    }
+  }
+}
+.data_details{
+  margin-top: 20px;
+  display: flex;
+  .crops{
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    h6{
+      padding-left: 20px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .crop_list{
+      ul{
+        text-align: left;
+        li{
+          p{
+            line-height: 40px;
+          }
+        }
+      }
+    }
+  }
+  .virus_details{
+    margin-left: 20px;
+    flex: 1;
+    .virus_title{
+      background-color: #fff;
+      display: flex;
+      padding: 10px;
+      flex: 1;
+      justify-content: space-between;
+      ul{
+        display: flex;
+        margin-left: 20px;
+        &:first-of-type{
+          border-right: 1px solid #ddd;
+        }
+        &:last-of-type{
+          flex: 1;
+        }
+        li{
+          margin-right: 10px;
+        }
+      }
+    }
+    .filter{
+      padding: 10px 10px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      h6{
+        margin-right: 20px;
+        width: 50px;
+      }
+      div{
+        align-items: center;
+        display: flex;
+        margin-left: 15px;
+      }
+      .radio{
+        p{
+          width: 40px;
+        }
+      }
+    }
+    .search{
+      padding: 10px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      h6{
+        margin-right: 35px;
+      }
+    }
+    .show_record{
+      margin-top: 20px;
+      & > ul{
+        width: 100%;
+        overflow: auto;
+        & > li{
+          width: 20%;
+          float: left;
+          padding: 10px;
+          background-color: #fff;
+          img{
+            width: 100%;
+            height: 60px;
+          }
+          .user_updata{
+            display: flex;
+            li{
+              margin-right: 10px;
+            }
+          }
+          p{
+            text-align: left;
+          }
+        }
+      }
+    }
+    .pages{
+      background-color: #fff;
+      text-align: right;
+    }
+  }
+}
+.currentCrop{
+  background-color: #2B78E2;
+  border-right: 2px solid #2B78E2;
+  p{
+    color: #fff;
+  }
+}

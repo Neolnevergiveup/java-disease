@@ -1,0 +1,61 @@
+.time{
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  padding-top: 10px;
+}
+.preview{
+  .title{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    li{
+      border-right: 1px solid #ddd;
+      width: 20%;
+      p{
+        line-height: 1.5;
+      }
+      h6{
+        line-height: 40px;
+      }
+    }
+  }
+  .trend{
+    margin-top: 20px;
+    display: flex;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+    .trend_left{
+      flex: 3;
+      text-align: left;
+      border-right: 1px solid #ddd;
+      ul{
+        li{
+          height: 150px;
+          p{
+            line-height: 150px;
+          }
+        }
+      }
+    }
+    .trend_right{
+      flex: 1;
+      padding: 0 20px;
+      text-align: left;
+      .right_title{
+        display: flex;
+        padding: 30px 0;
+        p{
+          margin-right: 20px;
+        }
+      }
+      li{
+        display: flex;
+        align-items: center;
+        margin: 30px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.user_data{
+  display: flex;
+  flex: 1;
+  padding-top: 10px;
+  .user_left{
+    width: 200px;
+    margin-right: 15px;
+    background-color: #fff;
+    padding: 10px;
+    ul{
+      text-align: left;
+      li{
+        p{
+          line-height: 40px;
+        }
+      }
+    }
+  }
+  .user_right{
+    .disease_name{
+      padding: 10px 20px;
+      background-color: #fff;
+      .type{
+        display: flex;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #ddd;
+      }
+      p{
+        margin-right: 20px;
+        min-width: 40px;
+      }
+      span{
+        margin-right: 20px;
+      }
+      ul{
+        flex: 1;
+        height: 21px;
+        overflow: hidden;
+        li{
+          float: left;
+        }
+      }
+      .user_filter{
+        padding-top: 10px;
+        display: block;
+        span{
+          display: inline-block;
+          float: left;
+        }
+        .radio{
+          display: flex;
+          .el-select{
+            margin-right: 20px;
+          }
+        }
+        .block{
+          text-align: left;
+          padding-left: 60px;
+          margin-top: 20px;
+        }
+      }
+    }
+    .disease_list{
+      margin-top: 20px;
+      background-color: #fff;
+    }
+    .page{
+      text-align: right;
+      margin-right: 50px;
+    }
+  }
+}
+.currentCrop{
+  background-color: #2B78E2;
+  border-right: 2px solid #2B78E2;
+  p{
+    color: #fff;
+  }
+}

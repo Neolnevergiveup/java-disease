@@ -1,0 +1,103 @@
+.species{
+  margin-top: 20px;
+  height: 100px;
+  background-color: #fff;
+  ul{
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    li{
+      width: 25%;
+      border-right: 1px solid #ddd;
+      &:last-of-type{
+        border: none;
+      }
+      h6{
+        font-size: 32px;
+        font-weight: 100;
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.data_details{
+  margin-top: 20px;
+  display: flex;
+  .crops{
+    width: 180px;
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 10px;
+    .add_crop{
+      margin-top: 10px;
+      width: 100%;
+    }
+    i{
+      margin-right: 10px;
+    }
+    ul{
+      text-align: left;
+      li{
+        p{
+          line-height: 40px;
+        }
+      }
+    }
+  }
+}
+.virus{
+  flex: 1;
+  .virus_name{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    align-items: center;
+    h6{
+      margin-right: 10px;
+    }
+    ul{
+      margin-left: 10px;
+      display: flex;
+      flex: 1;
+      li{
+        margin-right: 10px;
+      }
+    }
+  }
+  .virus_details{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    h6{
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .virus_list{
+      overflow: auto;
+      margin-top: 20px;
+      li{
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        float: left;
+        background-color: #2B78E2;
+      }
+    }
+    .page{
+      text-align: right;
+    }
+  }
+}
+
+.currentCrop{
+  background-color: #2B78E2;
+  border-right: 2px solid #2B78E2;
+  p{
+    color: #fff;
+  }
+}
